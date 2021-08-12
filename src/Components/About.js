@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+
 const About = (props) => {
   return (
     <Container className="mt-5 mb-5">
@@ -25,15 +26,20 @@ const About = (props) => {
           me. <br />
           <br />
           Then I started to learn web-development and machine learning from
-          online-resources as well as university-resourses. I am a very
-          fast-learner and can easily grasp new ideas. So, everytime, I try to
-          learn a new thing, i do it out of my heart not out of impulsiveness or
-          it being mandatory.
+          online-resources as well as university courses. Thats how i started to
+          write basic machine learning algorithms. One of my projects named
+          Linear and Multivariate regression is also a project from a online
+          course by "Andrew NG".
         </Col>
       </Row>
       <Row>
         <Col>
-          <h3 className="text-center">Find me on: Linkedin</h3>
+          <h3 className="text-center">
+            Find me on:{" "}
+            <a href="https://www.linkedin.com/in/sanskar-gauchan-b976b81b8/">
+              Linkedin
+            </a>
+          </h3>
         </Col>
       </Row>
     </Container>

@@ -1,21 +1,25 @@
 import { Col, Container, Image, ListGroup, Row } from "react-bootstrap";
-import Uni from "./Uni.png";
-import c1 from "./c1.png";
-import c2 from "./c2.png";
-import c3 from "./c3.png";
+import Uni from "./assets/Uni.png";
+import c1 from "./assets/c1.png";
+import c2 from "./assets/c2.png";
+import c3 from "./assets/c3.png";
 
 const Project = () => {
   return (
     <div>
       <Container className="mt-5 mb-5">
-        <Row className="pt-2 pb-2">
+        <Row className="pb-2">
           <Col className="d-flex justify-content-center">
             <h1>Projects</h1>
           </Col>
         </Row>
-        <Row>
+        <Row className="pt-2 pb-2">
           <Col>
             <h2>1. Country-finder App</h2>
+          </Col>
+        </Row>
+        <Row>
+          <Col className=" d-flex justify-content-center">
             <ListGroup variant="flush">
               <ListGroup.Item>
                 - Made use of an external api called{" "}
@@ -43,13 +47,13 @@ const Project = () => {
         </Row>
         <Row className="mt-4">
           <Col className="col-4">
-            <Image src={c1} className=" w-100 h-100" />
+            <Image src={c1} className=" me-auto" fluid />
           </Col>
           <Col className="col-5">
-            <Image src={c2} className=" w-100 h-100" />
+            <Image src={c2} className=" me-auto" fluid />
           </Col>
           <Col className="col-3">
-            <Image src={c3} className=" w-100 h-100" />
+            <Image src={c3} className=" me-auto" fluid />
           </Col>
         </Row>
         <Row>
@@ -59,10 +63,7 @@ const Project = () => {
               implementation
             </h2>
             <Row className="pt-2 pb-2">
-              <Col>
-                <Image src={Uni} className="w-100 h-100"></Image>
-              </Col>
-              <Col className="col-8 d-flex align-items-center">
+              <Col className="d-flex align-items-center justify-content-center">
                 <ListGroup variant="flush">
                   <ListGroup.Item>
                     - Used python and pandas to implement a linear learning
@@ -90,6 +91,11 @@ const Project = () => {
                     </a>
                   </ListGroup.Item>
                 </ListGroup>
+              </Col>
+            </Row>
+            <Row>
+              <Col className="d-flex justify-content-center">
+                <Image src={Uni} fluid></Image>
               </Col>
             </Row>
           </Col>

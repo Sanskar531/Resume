@@ -1,31 +1,21 @@
-import { Col, Container, Row, Button } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 
-const Nav = ({ projectHandler, resumeHandler, homeHandler }) => {
+const NavigationBar = ({ projectHandler, resumeHandler, homeHandler }) => {
   return (
-    <Container className="bg-primary rounded border">
-      <Row className="pt-3 pb-3">
-        <Col className="col-2">
-          <Button onClick={homeHandler} variant="light" className="width-100">
-            Home
-          </Button>
-        </Col>
-        <Col className="col-8 d-flex justify-content-end mr-1 width-100">
-          <Button
-            onClick={projectHandler}
-            variant="light"
-            className="align-right"
-          >
-            My Projects
-          </Button>
-        </Col>
-        <Col className="col-2 d-flex justify-content-end width-100">
-          <Button onClick={resumeHandler} variant="light">
-            My Resume
-          </Button>
-        </Col>
-      </Row>
-    </Container>
+    <Navbar bg="light" expand="lg">
+      <Container>
+        <Navbar.Brand>SG</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link onClick={homeHandler}>Home</Nav.Link>
+            <Nav.Link onClick={projectHandler}>Project</Nav.Link>
+            <Nav.Link onClick={resumeHandler}>Resume</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 
-export default Nav;
+export default NavigationBar;

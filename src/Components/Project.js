@@ -38,7 +38,7 @@ const Project = () => {
                 the country.
               </ListGroup.Item>
               <ListGroup.Item>
-                <a href="https://github.com/Sanskar531/Country-finder">
+                <a href="https://sanskar531.github.io/Country-Finder/">
                   Github
                 </a>
               </ListGroup.Item>

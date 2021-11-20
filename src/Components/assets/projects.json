@@ -1,0 +1,27 @@
+{
+    "projects":[{
+        "name":"Brain Tumor Segmentation using Unet",
+        "notes":["Used U-net as the main model for segmenting brain tumor images. Then used the true mask to penalize and train the model accordingly.",
+            "Dealt with class imbalance by using different loss functions like weighted cross entropy and dice loss",
+            "Trained the model efficiently to 55 epochs without overfitting it and gained a decent dice coefficient as well as sensitivity and specificity",
+            "Used dice coefficient, sensitivity, loss, specificity as the main metrics to evaluate the model"
+        ],
+        "github_repo":"https://github.com/Sanskar531/Brain-Tumor-Segmentation-using-Unet"
+    },
+    {
+        "name":"Country Finder Web App",
+        "notes":["Made use of an external api called restcountries.eu to pull in data about different countries.",
+            "Implemented a simple search function to find different countries and display them.",
+            "Applied React states in order to manage the search filtering.",
+            "Put a show function to fruition which when clicked would show the country." ],
+        "project_link":"https://sanskar531.github.io/Country-Finder/",
+        "github_repo":"https://github.com/Sanskar531/Country-Finder"
+    },
+    {
+        "name":"Multi Class Logistic Regressor",
+        "notes":["Used gradient descent as an optimization algorithm to find parameters which gets the lowest cost",
+        "Used regularization in the cost function to mitigate the risks of overfitting",
+        "Using the concept of one vs all, created multiple logistic regressors in one multi-class Regressor and used the prediction which was the most confident"],
+        "github_repo":"https://github.com/Sanskar531/Multi-Class-Logistic-Regression"
+    }]
+}

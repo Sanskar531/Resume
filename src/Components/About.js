@@ -11,25 +11,19 @@ const About = (props) => {
       <Row>
         <Col className="text-center">
           <h2>
-            Welcome to my website! <br />
+            <u>Welcome to my website!</u> <br />
           </h2>
         </Col>
       </Row>
       <Row className="mt-4 mb-4">
         <Col>
-          I am a student currently studying in UTS. I am doing a degee in
-          Enterprise Systems Development and Data Analytics. These two field are
-          very intresting and dear to my heart. I actually started to love
-          coding when i did a core subject named "Application Programming" which
-          was super intresting. When I started exploring more and more about the
-          field i stumbled upon web-development which looked super intriguing to
-          me. <br />
+          I am a student currently studying at UTS. I am doing bachelor of IT with Data Analytics as my major
+          and software development as my sub major. I am very intrested in the field of computer science and 
+          and really see myself having a long term career in this field. <br /> <br />
+          Later in the future, I want to also pursue a career in research. Since, I believe there is a lot of thing
+          left to be invented in the field and I want to be one of the people who can help discover and help prosper
+          the field of computer science. <br />
           <br />
-          Then I started to learn web-development and machine learning from
-          online-resources as well as university courses. Thats how i started to
-          write basic machine learning algorithms. One of my projects named
-          Linear and Multivariate regression is also a project from a online
-          course by "Andrew NG".
         </Col>
       </Row>
       <Row>

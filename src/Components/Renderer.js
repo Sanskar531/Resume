@@ -1,6 +1,6 @@
 import About from "./About";
 import Resume from "./Resume";
-import Project from "./Project";
+import Projectview from "./Project";
 
 const Renderer = ({ page }) => {
   if (page === "About") {
@@ -8,7 +8,7 @@ const Renderer = ({ page }) => {
   } else if (page === "Resume") {
     return <Resume />;
   } else {
-    return <Project />;
+    return <Projectview />;
   }
 };
 

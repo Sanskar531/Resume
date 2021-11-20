@@ -40,5 +40,16 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://Sanskar531.github.io/Resume"
+  "homepage": "https://Sanskar531.github.io/Resume",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanskar531/Resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanskar531/Resume/issues"
+  },
+  "description": ""
 }
